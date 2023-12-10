@@ -1,19 +1,29 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" onclick="__TAURI__.window.appWindow.close()">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tauri App</title>
     <style>
-      html,body{
+      html {
         background-color: transparent;
-        overflow-y:scroll;
+        overflow-y: scroll;
         color-scheme: dark;
       }
     </style>
   </head>
 
   <body>
-    
+    <div
+      style="
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        background-color: #000000;
+        color: #ffffff;
+      "
+    >
+      Click to close
+    </div>
   </body>
 </html>
